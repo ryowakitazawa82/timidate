@@ -1,4 +1,41 @@
 @charset "UTF-8";
+
+ /* ボタンの通常時のコードだよ*/
+ .btn {
+  position: relative;
+  display: inline-block;
+  background-color: White;
+  border: 1px solid black;
+  font-weight: 600;
+  padding: 10px 40px;
+  margin: 10px auto;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+  text-decoration: none !important;
+}
+
+ /* ボタンの通常時のドロップシャドウのコードだよ*/
+.btn.solid {
+  -webkit-box-shadow: 2px 2px 0 0 black;
+          box-shadow: 2px 2px 0 0 black;
+  border-radius: 7px;
+}
+
+.solid a{
+  color:#535353;
+}
+
+ /* ボタンのホバーコードだよ*/
+.btn.solid:hover {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
 .appear.up .item {
   -webkit-transform: translateY(6px);
           transform: translateY(6px);
@@ -1032,9 +1069,21 @@ img {
   display: block;
 }
 
+.company{
+  margin-top: 90px;
+  color:#ED872F;
+  
+}
+
+
+
 .sub-title {
   color: #535353;
+  margin-bottom: 50px;
 }
+
+
+
 
 .flex, .travel__inner, .houses__inner, .popular__container, .footer__nav, .footer__ul {
   display: -webkit-box;
