@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
  /* ボタンの通常時のコードだよ*/
+a{
+	text-decoration: none;
+}
  .btn {
   position: relative;
   display: inline-block;
