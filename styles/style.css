@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
  /* ボタンの通常時のコードだよ*/
-a{
+a:hover{
 	text-decoration: none;
 }
  .btn {
