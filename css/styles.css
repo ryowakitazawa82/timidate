@@ -33,14 +33,7 @@
   border-radius: 7px;
 }
 
- /* ボタンのホバーコードだよ*/
-.btn.solid:hover {
-  -webkit-transform: translate(2px, 2px);
-          transform: translate(2px, 2px);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-       
-}
+
 
 
 
